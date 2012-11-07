@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30000">Compte Média-Passion</string>
+  <string id="30001">Compte Ciné-Passion</string>
+
+  <string id="30003">Nom d'utilisateur</string>
+  <string id="30004">Mot de passe</string>
+  <string id="30005">Mot de passe API</string>
+
+  <string id="30020">Préférences</string>
+  <string id="30021">Langue</string>
+  <string id="30022">Conserver le titre original</string>
+  
+  <string id="30025">Pays de la certification [COLOR=66FFFFFF][MPAA][/COLOR]</string>
+  <string id="30026">Utilisez MPAA des Etats-Unis, si ma certification est vide</string>
+</strings>

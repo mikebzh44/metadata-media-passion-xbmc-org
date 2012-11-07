@@ -1,0 +1,15 @@
+v2.0.4
+ - fixed: media-passion URL NFO file (e.g.: http://www.media-passion.org/movie/60637/ice-age-a-mammoth-christmas-2011 )
+ - new icon.png
+
+v2.0.3
+ - fixed: add media not found to library on auto-scan.
+
+v2.0.2
+ - actived scraper errors
+ - added: setting for media not found to add library. by default true
+ - changed: default scraper to Media-Passion
+ - fixed: id_imdb
+
+v2.0.0 - v2.0.1
+ - Version next gen of cine-passion

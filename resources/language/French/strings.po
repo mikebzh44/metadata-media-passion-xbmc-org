@@ -1,0 +1,70 @@
+# XBMC Media Center language file
+# Addon Name: Passion-XBMC
+# Addon id: metadata.passion.xbmc.org
+# Addon version: 2.0.0
+# Addon Provider: Team Passion-XBMC (passion-xbmc.org)
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2012-06-13 15:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+msgctxt "Addon Summary"
+msgid "Passion-XBMC scraper grabs film's informations in french or in english from Ciné-Passion or Média-Passion."
+msgstr "Le scraper Passion-XBMC récupère les informations des films en français ou en anglais depuis Ciné-Passion ou Média-Passion."
+
+msgctxt "Addon Description"
+msgid "Passion-XBMC scraper has been created by members of passion-xbmc.org community."
+msgstr "Le scraper Passion-XBMC est le fruit du travail de développeurs appartenant à la communauté Passion-xbmc.org."
+
+msgctxt "Addon Disclaimer"
+msgid "Passion-XBMC scraper is a community database where everyone is welcome to help."
+msgstr "Le Scraper Passion-XBMC est une base de données communautaire à laquelle tout le monde est invité à participer."
+
+msgctxt "#30000"
+msgid "Account Media-Passion"
+msgstr "Compte Média-Passion"
+
+msgctxt "#30001"
+msgid "Account Cine-Passion"
+msgstr "Compte Ciné-Passion"
+
+msgctxt "#30003"
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgctxt "#30004"
+msgid "Password"
+msgstr "Mot de passe"
+
+msgctxt "#30005"
+msgid "Password API"
+msgstr "Mot de passe API"
+
+msgctxt "#30020"
+msgid "Preferences"
+msgstr "Préférences"
+
+msgctxt "#30021"
+msgid "Language"
+msgstr "Langue"
+
+msgctxt "#30022"
+msgid "Keep Original Title"
+msgstr "Conserver le titre original"
+
+msgctxt "#30025"
+msgid "Country Certification [COLOR=66FFFFFF][MPAA][/COLOR]"
+msgstr "Pays de la certification [COLOR=66FFFFFF][MPAA][/COLOR]"
+
+msgctxt "#30026"
+msgid "Use MPAA of USA, if my certification is empty!"
+msgstr "Utilisez MPAA des Etats-Unis, si ma certification est vide"
