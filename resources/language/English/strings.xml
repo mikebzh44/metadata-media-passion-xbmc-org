@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>-
   <string id="30000">Account Media-Passion</string>
-  <string id="30001">Account Cine-Passion</string>
 
-  <string id="30003">Username</string>
-  <string id="30004">Password</string>
-  <string id="30005">Password API</string>
+  <string id="30001">Username</string>
+  <string id="30002">Password API</string>
 
-  <string id="30020">Preferences</string>
-  <string id="30021">Language</string>
-  <string id="30022">Keep Original Title</string>
+  <string id="30020">Metadata</string>
+  <string id="30021">Preferences</string>
+  <string id="30022">Language</string>
+  <string id="30023">Keep Original Title</string>
   
   <string id="30025">Country Certification [COLOR=66FFFFFF][MPAA][/COLOR]</string>
   <string id="30026">Use MPAA of USA, if my certification is empty!</string>
+  <string id="30027">Media not found</string>
+  <string id="30028">Add to library [COLOR=66FFFFFF](title will be empty)[/COLOR]</string>
+  <string id="30029">Movieset</string>
+  <string id="30030">Get movieset from Media-Passion</string>
 </strings>

@@ -18,53 +18,69 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 msgctxt "Addon Summary"
-msgid "Passion-XBMC scraper grabs film's informations in french or in english from Ciné-Passion or Média-Passion."
-msgstr "Le scraper Passion-XBMC récupère les informations des films en français ou en anglais depuis Ciné-Passion ou Média-Passion."
+msgid "Media-Passion scraper grabs french or english movie's informations from Media-Passion.org."
+msgstr "Le scraper Media-Passion récupère les informations des films en français ou en anglais depuis Média-Passion.org."
 
 msgctxt "Addon Description"
-msgid "Passion-XBMC scraper has been created by members of passion-xbmc.org community."
-msgstr "Le scraper Passion-XBMC est le fruit du travail de développeurs appartenant à la communauté Passion-xbmc.org."
+msgid "Media-Passion scraper has been created by members of passion-xbmc.org community."
+msgstr "Le scraper Media-Passion est le fruit du travail de développeurs appartenant à la communauté Passion-xbmc.org."
 
 msgctxt "Addon Disclaimer"
-msgid "Passion-XBMC scraper is a community database where everyone is welcome to help."
-msgstr "Le Scraper Passion-XBMC est une base de données communautaire à laquelle tout le monde est invité à participer."
+msgid "Media-Passion scraper is a community database where everyone is welcome to help."
+msgstr "Le scraper Media-Passion est une base de données communautaire à laquelle tout le monde est invité à participer."
 
 msgctxt "#30000"
 msgid "Account Media-Passion"
 msgstr "Compte Média-Passion"
 
 msgctxt "#30001"
-msgid "Account Cine-Passion"
-msgstr "Compte Ciné-Passion"
-
-msgctxt "#30003"
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-msgctxt "#30004"
-msgid "Password"
-msgstr "Mot de passe"
-
-msgctxt "#30005"
+msgctxt "#30002"
 msgid "Password API"
 msgstr "Mot de passe API"
 
+#empty strings from id 30003 to 30019
+
 msgctxt "#30020"
+msgid "Metadata"
+msgstr "Métadonnées"
+
+msgctxt "#30021"
 msgid "Preferences"
 msgstr "Préférences"
 
-msgctxt "#30021"
+msgctxt "#30022"
 msgid "Language"
 msgstr "Langue"
 
-msgctxt "#30022"
+msgctxt "#30023"
 msgid "Keep Original Title"
 msgstr "Conserver le titre original"
+
+#empty strings from id 30023 to 30024
 
 msgctxt "#30025"
 msgid "Country Certification [COLOR=66FFFFFF][MPAA][/COLOR]"
 msgstr "Pays de la certification [COLOR=66FFFFFF][MPAA][/COLOR]"
 
 msgctxt "#30026"
-msgid "Use MPAA of USA, if my certification is empty!"
+msgid "Use MPAA of USA, if my certification is empty !"
 msgstr "Utilisez MPAA des Etats-Unis, si ma certification est vide"
+
+msgctxt "#30027"
+msgid "Media not found"
+msgstr "Média non trouvé"
+
+msgctxt "#30028"
+msgid "Add to library [COLOR=66FFFFFF](title will be empty)[/COLOR]"
+msgstr "Ajouter dans la médiathèque [COLOR=66FFFFFF](le titre sera vide)[/COLOR]"
+
+msgctxt "#30029"
+msgid "Movieset"
+msgstr "Saga"
+
+msgctxt "#30030"
+msgid "Get movieset from Media-Passion"
+msgstr "Récupérer la saga depuis Media-Passion"

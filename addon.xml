@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="metadata.passion.xbmc.org" name="Passion-XBMC"
-       version="2.0.4" provider-name="Team Passion-XBMC (passion-xbmc.org)">
+<addon id="metadata.media.passion.org" name="Media-Passion"
+       version="2.0.7" provider-name="Team Passion-XBMC (passion-xbmc.org)">
   <requires>
     <import addon="xbmc.metadata" version="1.0"/>
   </requires>
-  <extension point="xbmc.metadata.scraper.movies" language="multi" library="passion-xbmc.xml"/>
+  <extension point="xbmc.metadata.scraper.movies" language="multi" library="media-passion.xml"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Passion-XBMC scraper grabs film's informations in french or in english from Ciné-Passion or Média-Passion.</summary>
-    <summary lang="fr">Le scraper Passion-XBMC récupère les informations des films en français ou en anglais depuis Ciné-Passion ou Média-Passion.</summary>
-    <description lang="en">Passion-XBMC scraper has been created by members of passion-xbmc.org community.</description>
-    <description lang="fr">Le scraper Passion-XBMC est le fruit du travail de développeurs appartenant à la communauté Passion-xbmc.org.</description>
-    <disclaimer lang="en">Passion-XBMC scraper is a community database where everyone is welcome to help.</disclaimer>
-    <disclaimer lang="fr">Le Scraper Passion-XBMC est une base de données communautaire à laquelle tout le monde est invité à participer.</disclaimer>
+    <summary lang="en">Media-Passion scraper grabs french or english movie's informations from Media-Passion.org.</summary>
+    <summary lang="fr">Le scraper Media-Passion récupère les informations des films en français ou en anglais depuis Média-Passion.org.</summary>
+    <description lang="en">Media-Passion scraper has been created by members of passion-xbmc.org community.</description>
+    <description lang="fr">Le scraper Media-Passion est le fruit du travail de développeurs appartenant à la communauté Passion-xbmc.org.</description>
+    <disclaimer lang="en">Media-Passion scraper is a community database where everyone is welcome to help.</disclaimer>
+    <disclaimer lang="fr">Le scraper Media-Passion est une base de données communautaire à laquelle tout le monde est invité à participer.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>

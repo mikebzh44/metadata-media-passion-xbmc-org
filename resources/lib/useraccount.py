@@ -8,11 +8,10 @@ import sys
 
 # get setting id
 settingId = sys.argv[ 1 ]
-settingMP = ( "", "_mp" )[ settingId.endswith( "_mp" ) ]
 
 # check id setting
-if settingId.replace( "_mp", "" ) not in "username|password":
-    raise "Passion-XBMC::useraccount: %r" % sys.argv
+if settingId not in "username|password":
+    raise "Media-Passion::useraccount: %r" % sys.argv
 
 # Modules General
 from hashlib import sha1
@@ -25,21 +24,21 @@ from xbmcaddon import Addon
 
 
 # get scraper object
-AddonId = "metadata.passion.xbmc.org"
+AddonId = "metadata.media.passion.org"
 Addon   = Addon( AddonId )
 
 # set variables
-token   = Addon.getSetting( "token"    + settingMP )
-token64 = Addon.getSetting( "token64"  + settingMP )
-login   = Addon.getSetting( "username" + settingMP )
-passw   = Addon.getSetting( "password" + settingMP )
+token   = Addon.getSetting( "token" )
+token64 = Addon.getSetting( "token64" )
+login   = Addon.getSetting( "username" )
+passw   = Addon.getSetting( "password" )
 
-if settingId == "username" + settingMP:
-    heading = Addon.getLocalizedString( 30003 )
+if settingId == "username":
+    heading = Addon.getLocalizedString( 30001 )
     default = login
     hidden  = False
-elif settingId == "password" + settingMP:
-    heading = Addon.getLocalizedString( 30004 + int( bool( settingMP ) ) )
+elif settingId == "password":
+    heading = Addon.getLocalizedString( 30002 )
     default = passw
     hidden  = True
 
@@ -58,9 +57,9 @@ if kb.isConfirmed():
     text = kb.getText()
     # si le text est pas vide et pas pareil que le default ou pas de token, on change
     if text:# and ( text != default or not hasToken ):
-        Addon.setSetting( "scraper", ( "Cine-Passion", "Media-Passion" )[ bool( settingMP ) ] )
+        Addon.setSetting( "scraper", "Media-Passion" )
         # set our codes
-        if settingId == "username" + settingMP:
+        if settingId == "username":
             token    = sha1( text.lower() + passw ).hexdigest()
             tokenb64 = b64encode( text )
             login    = text
@@ -71,8 +70,8 @@ if kb.isConfirmed():
             tokenb64 = b64encode( login )
             passw    = text
         # save cached settings infos
-        Addon.setSetting( "token"    + settingMP, token )
-        Addon.setSetting( "tokenb64" + settingMP, tokenb64 )
+        Addon.setSetting( "token"    , token )
+        Addon.setSetting( "tokenb64" , tokenb64 )
         # save setting for visible infos
         Addon.setSetting( settingId, text )
         UpdateUserDB = True
@@ -94,20 +93,20 @@ if UpdateUserDB:
     # formation du settings.xml en une seul ligne
     strSettings = "<settings>"
     for id in sorted( findall( 'id="(.*?)"', open( settingsXML ).read() ) ):
-        if   id == "username" + settingMP: value = login
-        elif id == "password" + settingMP: value = passw
-        elif id == "token"    + settingMP: value = token
-        elif id == "tokenb64" + settingMP: value = tokenb64
+        if   id == "username" : value = login
+        elif id == "password" : value = passw
+        elif id == "token"    : value = token
+        elif id == "tokenb64" : value = tokenb64
         else: value = Addon.getSetting( id )
         strSettings += '<setting id="%s" value="%s" />' % ( id, value )
     strSettings += "</settings>"
 
     # commande sql
-    sql_update = "UPDATE path SET strSettings='%s' WHERE strScraper='%s'" % ( strSettings, AddonId )
+    #sql_update = "UPDATE path SET strSettings='%s' WHERE strScraper='%s'" % ( strSettings, AddonId )
     # execution de l'update
-    ok = xbmc.executehttpapi( "ExecVideoDatabase(%s)" % quote_plus( sql_update ) ).replace( "<li>", "" )
+    #ok = xbmc.executehttpapi( "ExecVideoDatabase(%s)" % quote_plus( sql_update ) ).replace( "<li>", "" )
     # print infos dans le output, mais enleve les infos secrets |username|tokenb64
-    print "%s: ExecVideoDatabase(%s)" % ( ok, sub( '(id="(password|password_mp|token|token_mp)" value=)"(.*?)"', '\\1"****"', sql_update ) )
+    #print "%s: ExecVideoDatabase(%s)" % ( ok, sub( '(id="(password|token)" value=)"(.*?)"', '\\1"****"', sql_update ) )
 
     from xml.dom.minidom import parseString
     try:
@@ -122,6 +121,5 @@ if UpdateUserDB:
     except:
         from traceback import print_exc
         print_exc()
-    #print sub( '(id="(password|password_mp|token|token_mp)" value=)"(.*?)"', '\\1"****"', strSettings )
     # print le temps que cela a pris
     print time.time() - t1

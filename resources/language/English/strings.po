@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 msgctxt "Addon Summary"
-msgid "Passion-XBMC scraper grabs film's informations in french or in english from Ciné-Passion or Média-Passion."
+msgid "Media-Passion scraper grabs french or english movie's informations from Media-Passion.org."
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "Passion-XBMC scraper has been created by members of passion-xbmc.org community."
+msgid "Media-Passion scraper has been created by members of passion-xbmc.org community."
 msgstr ""
 
 msgctxt "Addon Disclaimer"
-msgid "Passion-XBMC scraper is a community database where everyone is welcome to help."
+msgid "Media-Passion scraper is a community database where everyone is welcome to help."
 msgstr ""
 
 msgctxt "#30000"
@@ -34,34 +34,28 @@ msgid "Account Media-Passion"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Account Cine-Passion"
-msgstr ""
-
-#empty string with id 30002
-
-msgctxt "#30003"
 msgid "Username"
 msgstr ""
 
-msgctxt "#30004"
-msgid "Password"
-msgstr ""
-
-msgctxt "#30005"
+msgctxt "#30002"
 msgid "Password API"
 msgstr ""
 
-#empty strings from id 30006 to 30019
+#empty strings from id 30003 to 30019
 
 msgctxt "#30020"
-msgid "Preferences"
+msgid "Metadata"
 msgstr ""
 
 msgctxt "#30021"
-msgid "Language"
+msgid "Preferences"
 msgstr ""
 
 msgctxt "#30022"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30023"
 msgid "Keep Original Title"
 msgstr ""
 
@@ -72,5 +66,21 @@ msgid "Country Certification [COLOR=66FFFFFF][MPAA][/COLOR]"
 msgstr ""
 
 msgctxt "#30026"
-msgid "Use MPAA of USA, if my certification is empty!"
+msgid "Use MPAA of USA, if my certification is empty !"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Media not found"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Add to library [COLOR=66FFFFFF](title will be empty)[/COLOR]"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Movieset"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Get movieset from Media-Passion"
 msgstr ""

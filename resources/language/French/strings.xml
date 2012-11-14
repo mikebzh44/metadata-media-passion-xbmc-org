@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>
   <string id="30000">Compte Média-Passion</string>
-  <string id="30001">Compte Ciné-Passion</string>
 
-  <string id="30003">Nom d'utilisateur</string>
-  <string id="30004">Mot de passe</string>
-  <string id="30005">Mot de passe API</string>
+  <string id="30001">Nom d'utilisateur</string>
+  <string id="30002">Mot de passe API</string>
 
-  <string id="30020">Préférences</string>
-  <string id="30021">Langue</string>
-  <string id="30022">Conserver le titre original</string>
+  <string id="30020">Métadonnées</string>
+  <string id="30021">Préférences</string>
+  <string id="30022">Langue</string>
+  <string id="30023">Conserver le titre original</string>
   
   <string id="30025">Pays de la certification [COLOR=66FFFFFF][MPAA][/COLOR]</string>
   <string id="30026">Utilisez MPAA des Etats-Unis, si ma certification est vide</string>
+  <string id="30027">Média non trouvé</string>
+  <string id="30028">Ajouter dans la médiathèque [COLOR=66FFFFFF](le titre sera vide)[/COLOR]</string>
+  <string id="30029">Saga</string>
+  <string id="30030">Récupérer la saga depuis Media-Passion</string>
 </strings>
